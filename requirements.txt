@@ -5,4 +5,4 @@ requests
 numpy
 matplotlib
 scipy
-Pillow
+Pillow>=10.0.0
