@@ -1,7 +1,7 @@
 # 🌾 Project Samarth – Intelligent Q&A System on Indian Government Datasets
 # Link:
+[Open Project Samarth App](https://projectsamarthmvp-uxmhx2w2jzcjztydteqrux.streamlit.app/)
 
-👉 Open Project Samarth App
 
 # If the app doesn’t load properly, please open the link in an incognito window to avoid Streamlit caching issues.
 
