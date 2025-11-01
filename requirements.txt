@@ -1,8 +1,8 @@
-streamlit==1.25.0
+streamlit==1.38.0
 pandas
 pyarrow
 requests
 numpy
 matplotlib
 scipy
-Pillow==9.4.0
+Pillow
