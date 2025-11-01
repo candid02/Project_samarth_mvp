@@ -1,17 +1,17 @@
-🌾 Project Samarth – Intelligent Q&A System on Indian Government Datasets
-🔗 Live Demo:
+# 🌾 Project Samarth – Intelligent Q&A System on Indian Government Datasets
+# Link:
 
 👉 Open Project Samarth App
 
-#If the app doesn’t load properly, please open the link in an incognito window to avoid Streamlit caching issues.
+# If the app doesn’t load properly, please open the link in an incognito window to avoid Streamlit caching issues.
 
-🚀 Overview
+# 🚀 Overview
 
 Project Samarth is an intelligent Q&A dashboard that connects directly to live datasets from data.gov.in
 to provide real-time insights on India’s agriculture and climate data.
 Users can ask natural language questions (like “Compare rainfall in Bihar and Kerala” or “Show total crop area for Maharashtra”) and get data-backed answers with source references.
 
-🌱 Vision
+# Vision
 
 Government portals like data.gov.in hold thousands of valuable datasets released by different ministries.
 However, these datasets are often inconsistent in structure and difficult to combine manually.
@@ -57,17 +57,17 @@ However, I plan to enhance the system further to:
 
 For now, you can try the example questions listed above, which fetch and visualize live data correctly.
 
-🗂️ Datasets Used
+# Datasets Used
 
-Rainfall Dataset
+# Rainfall Dataset
 Source: India Meteorological Department (IMD)
 API: State/District Wise Daily Rainfall Data – data.gov.in
 
-Crop Area Dataset
+# Crop Area Dataset
 Source: Ministry of Agriculture & Farmers Welfare
 API: Total Crop Area under Land Use Statistics – data.gov.in
 
-🧠 System Design
+# System Design
 
 Architecture Overview:
 
@@ -77,18 +77,15 @@ User Query  →  Query Processor  →  Dataset Detection (Rainfall / Crop)
              →  Answer Display (Text + Table)
 
 
-Core Features:
+# Core Features:
 
-🌧️ Average rainfall calculation by state
-
-🌾 Total crop area computation by state
-
-🧠 Basic reasoning and comparison summaries
-
-🗃️ Live API integration with IMD & Agriculture datasets
+Average rainfall calculation by state
+Total crop area computation by state
+Basic reasoning and comparison summaries
+Live API integration with IMD & Agriculture datasets
 
 
-🖥️ Tech Stack
+# Tech Stack
 Layer	Technology
 Frontend	Streamlit
 Backend	Python
@@ -97,7 +94,7 @@ API Access	requests
 Visualization	Streamlit native tables
 Hosting	Streamlit Cloud
 
-⚙️ Setup Instructions (Run Locally)
+# ⚙️ Setup Instructions (Run Locally)
 # Clone this repository
 git clone https://github.com/<your-username>/Project-Samarth.git
 cd Project-Samarth
